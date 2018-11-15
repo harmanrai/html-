@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing : border-box;
+}
+
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color: white;
+    font-family: monospace;
+}
+
+
+header {
+   background-image: url(images/pretty.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+}
+
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.row {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.img1 {
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    
+}
+
+.main-nav {
+    float: right;
+    margin-top: 60px;
+    
+}
+
+
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+
+}
+
+.main-nav li a {
+    padding: 5px 0px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+
+
+.main-nav li a:hover {
+    border-bottom: 2px solid red;
+}
+
+.main-content-header {
+    width: 1180px;
+    position: absolute;
+    float: left;
+    margin-top: 100px;
+    
+}
+
+h1 {
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 100px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+
+.btn-full {
+    background-color: transparent;
+    color: ghostwhite;
+    margin-right: 15px;
+}
+
+.btn-full:hover {
+    background-color: red;
+}
+
+.btn-nav:hover{
+    background-color: red;
+}
+
+.
